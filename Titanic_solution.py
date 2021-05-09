@@ -487,7 +487,8 @@
    "source": [
     "correlation = train.corr()\n",
     "sns.heatmap(correlation,annot=True)\n",
-    "plt.show()"
+    "plt.show()\n",
+    "#The heatmap of pearson correlation coefficient does not show any meaningful linear correlations other that sex"
    ]
   },
   {
